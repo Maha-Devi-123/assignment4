@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.team-logo-pic {
+  width: 120px;
+}
+.matchcard-can {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  width: 350px;
+  height: 550px;
+  text-align: center;
+  margin: 10px;
+  border-radius: 30px;
+  list-style: none;
+}
+.team-name {
+  font-size: 30px;
+  width: 270px;
+}
+.match-status {
+  font-size: 20px;
+  width: 250px;
+}
+@media screen and (max-width: 756px) {
+  .team-logo-pic {
+    width: 50px;
+  }
+  .team-name {
+    font-size: 10px;
+    width: 120px;
+  }
+  .match-status {
+    font-size: 8px;
+    width: 100px;
+  }
+  .matchcard-can {
+    width: 120px;
+    height: 200px;
+    border-radius: 20px;
+  }
+}
+.green {
+  color: #18ed66;
+}
+.red {
+  color: #e31a1a;
+}

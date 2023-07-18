@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.competing-logo {
+  width: 200px;
+}
+.latestMatchCan {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e293b;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.team-head {
+  font-size: 40px;
+  font-weight: 500;
+}
+.text-cans {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-align-right {
+  text-align: right;
+  width: 30%;
+}
+.date {
+  font-size: 30px;
+}
+p {
+  font-size: 15px;
+}
+.paraHead {
+  font-size: 20px;
+}
+.break-line {
+  display: none;
+}
+@media screen and (max-width: 756px) {
+  .team-head {
+    font-size: 25px;
+  }
+  .competing-logo {
+    width: 120px;
+  }
+  .text-cans {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+  .date {
+    font-size: 20px;
+  }
+  p {
+    font-size: 13px;
+  }
+  .paraHead {
+    font-size: 18px;
+  }
+  .latestMatchCan {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .break-line {
+    display: block;
+    border: 1px solid white;
+    width: 100%;
+  }
+  .text-align-right {
+    text-align: left;
+  }
+}

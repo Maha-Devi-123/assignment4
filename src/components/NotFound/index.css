@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.notfound-can {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+
+  background-size: cover;
+}
+.notfound-head {
+  font-size: 50px;
+}
+@media screen and (max-width: 756px) {
+  .notfound-can {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  }
+  .notfound-head {
+    font-size: 20px;
+  }
+}
